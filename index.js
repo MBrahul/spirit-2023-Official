@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require('cors')
+const cors = require('cors');
 
 const cookieParse = require('cookie-parser');
 require('dotenv').config({path:'.env'});
@@ -65,7 +65,7 @@ app.use('/',require('./routes/registration'));
 app.use('/',require('./routes/main'));
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT,()=>{
     console.log("server live..");
