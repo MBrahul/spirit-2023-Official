@@ -63,8 +63,7 @@ app.get('/admin/home',(req,res)=>{
 app.use('/',require('./routes/adminAuth'));
 app.use('/',require('./routes/registration'));
 app.use('/',require('./routes/main'));
-
-
+app.use('/api/admin',require('./routes/adminAuth'));
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT,()=>{
