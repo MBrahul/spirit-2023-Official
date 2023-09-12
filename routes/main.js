@@ -3,6 +3,10 @@ const router = express.Router();
 const User = require('../models/User');
 
 
+let sports={};
+
+
+
 router.get("/",(req,res)=>{
     res.render("index");
  });
@@ -12,7 +16,7 @@ router.get("/",(req,res)=>{
  });
  
  router.get("/events",(req,res)=>{
-   res.render("events");
+   res.render("events",);
  });
  
  router.get("/desktop15",(req,res)=>{
