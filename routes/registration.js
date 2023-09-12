@@ -112,7 +112,12 @@ router.get('/auth/google',
   passport.authenticate('google', { scope: ['profile','email'] }));
 
 router.get('/auth/google/redirect',passport.authenticate('google'),(req, res)=>{
-    res.redirect('/dashboard/');
+    // console.log(req.route['path']);
+    //console.log(req.user['username']);
+    const token = jwt.sign({ userId: req.user['username'] },jwtSecret)
+    res.cookie('token', token, {httpOnly: true});
+    res.redirect('/dashboard');
+    // res.redirect('/dashboard/');
   }
 );
 
