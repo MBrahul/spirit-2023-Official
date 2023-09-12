@@ -8,7 +8,7 @@ app.get('/auth/google/redirect',
   passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
     // Successful authentication, redirect home.
-    // res.redirect('/');
-    res.send("oombu");
+    res.redirect('/');
+    // res.send("oombu");
   }
   );

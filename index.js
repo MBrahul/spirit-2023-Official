@@ -1,9 +1,7 @@
 const express = require("express");
 const cors = require('cors');
-const passport=require('passport');
 const cookieParse = require('cookie-parser');
 require('dotenv').config({path:'.env'});
-const session = require('express-session')
 const connectToMongo = require('./models/db.js');
 const cookieSession = require('cookie-session');
 
@@ -16,6 +14,8 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(cookieParse());
 
+const passport=require('passport');
+const session = require('express-session')
 app.use(cookieSession({
   maxAge:24*60*60*1000,
   keys:['Spirit']
