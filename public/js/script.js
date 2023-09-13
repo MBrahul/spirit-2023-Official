@@ -110,9 +110,11 @@ async function sports() {
 
   document.querySelector(".h3").innerHTML = data.articles[4].title;
   document.querySelector(".des3").innerHTML = data.articles[4].description;
-  const iconUrl3 = data.articles[4].urlToImage;
+  const iconUrl3 = data.articles[3].urlToImage;
   const imgElement3 = document.getElementById("img_style4");
   imgElement3.src = iconUrl3;
+
+  
 }
 sports();
 
