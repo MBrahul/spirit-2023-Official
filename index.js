@@ -1,11 +1,9 @@
 const express = require("express");
 const cors = require('cors');
-const passport=require('passport');
 const cookieParse = require('cookie-parser');
 require('dotenv').config({path:'.env'});
-const session = require('express-session')
 const connectToMongo = require('./models/db.js');
-const cookieSession = require('cookie-session');
+const session = require('express-session')
 
 const app = express();
 app.use(express.json());
@@ -16,12 +14,14 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(cookieParse());
 
-app.use(cookieSession({
-  maxAge:24*60*60*1000,
-  keys:['Spirit']
-}));
-app.use(passport.initialize());
-app.use(passport.session());
+// const passport=require('passport');
+// const cookieSession = require('cookie-session');
+// app.use(cookieSession({
+  //   maxAge:24*60*60*1000,
+//   keys:['Spirit']
+// }));
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 app.use(function (req, res, next) {
   req.header("Access-Control-Allow-Origin", "*");
