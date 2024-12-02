@@ -1,6 +1,6 @@
-# JOSAA Data Analysis Portal
+# Spirit IITG Website
 
-This project focuses on providing a comprehensive and user-friendly platform for analyzing and visualizing data from the Joint Seat Allocation Authority (JoSAA) website. By leveraging web scraping techniques, data is extracted and stored in a MongoDB Atlas server. The platform offers various features, including trend analysis of opening and closing ranks, filtering options based on criteria such as category, gender, and college, as well as branch availability predictions based on rank and preferences. With intuitive visualizations and powerful search functionalities, the project aims to assist students in making informed decisions regarding their higher education admissions in IITs.
+The official website for Spirit '23, the annual sports festival of IIT Guwahati. The website serves as a hub for event details, score updates, and participant registrations, delivering a seamless experience to all users.
 
 ## Table of Contents
 
@@ -11,22 +11,24 @@ This project focuses on providing a comprehensive and user-friendly platform for
 
 ## Overview
 
-The project aims to create a comprehensive platform for analyzing and visualizing data related to higher education admissions in Indian Institutes of Technology (IITs) using data obtained from the Joint Seat Allocation Authority (JoSAA) website. By leveraging web scraping techniques, relevant data is extracted and stored in a MongoDB Atlas server for efficient retrieval and analysis.
+The Spirit IITG Website was developed to manage the sports festival held at IIT Guwahati. It offers functionalities such as real-time score updates, event registration, and detailed festival schedules. The project emphasized efficient backend management and user-friendly front-end design.
 
-The platform offers various features to facilitate informed decision-making for students seeking admission to IITs. These features include trend analysis of opening and closing ranks for different academic programs, filtering options based on categories such as gender, category, and college, as well as branch availability predictions based on a student's rank and preferences.
+Duration
+June 2024 - July 2024
 
-To provide a seamless user experience, the project includes an intuitive web interface with interactive charts and user-friendly navigation. The visualizations and data analysis empower students to explore historical trends, identify potential admission options, and make informed decisions about their educational journey in IITs.
+## Key Contributions
+- Developed the backend portal for managing scores across various sports events.
+- Oversaw a team responsible for the overall website development.
+- Ensured code quality and timely completion of deliverables.
 
-By centralizing and presenting essential information in a user-friendly manner, the project aims to simplify the process of accessing and interpreting admission-related data, ultimately helping students navigate the complex landscape of higher education admissions in IITs.
-
-Overall, this project strives to provide students with a valuable resource to support their decision-making process and enhance their chances of securing admissions to their desired academic programs in IITs.
 
 ## Features
 
-- [OR-CR Trend Analysis](#trend-analysis)
-- [Rank wise College Suggestion](#rank-wise-college-suggestion)
-- [Interest wise (preffered branch) College Suggestion](#interest-wise-college-suggestion)
-
+- Dynamic Backend: Real-time updates for scores and event data.
+- Responsive Design: Optimized for mobile and desktop screens.
+- User-Friendly Interface: Easy navigation with minimal learning curve.
+- Comprehensive Content: Includes festival schedule, rulebook, and mascot details.
+- Sponsor Section: Highlights the contributors backing the event.
 
 
 ## Screenshots
