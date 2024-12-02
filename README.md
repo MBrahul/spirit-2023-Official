@@ -6,7 +6,6 @@ The official website for Spirit '23, the annual sports festival of IIT Guwahati.
 
 - [Overview](#overview)
 - [Features](#features)
-- [Usage](#usage)
 - [Screenshots](#screenshots)
 
 ## Overview
@@ -34,7 +33,7 @@ June 2024 - July 2024
 ## Screenshots
 
 ### Landing Page
-![Screenshot (105)](https://github.com/Haribhajank/JOSAA_DAP/assets/106884012/56de4da1-53d7-4ff8-abb7-91b030f55cb3) &nbsp;
+![Screenshot (105)](https://drive.google.com/file/d/1JS7hZZTUt1TYuGpPvxMwYr1AGMvWckcH/view?usp=share_link) &nbsp;
 <br/>
 <br/>
 <br/>
